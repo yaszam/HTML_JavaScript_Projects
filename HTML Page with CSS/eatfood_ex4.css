@@ -1,0 +1,55 @@
+body {
+  background-image: url("images/background.gif");
+  background-repeat:repeat;
+}
+p, h1, h2 {
+  font-family:"Comic Sans MS",sans-serif;
+}
+
+img.right {
+  float:right;
+  width:350px;
+}
+
+
+
+#container {
+  border-color:white;
+  border-style:solid;
+  border-width:5px;
+  margin-left:10%;
+  margin-right:10%;
+  background-color:white;
+}
+
+#first {
+  border-color:rgb(168,213,255);
+  border-style:solid;
+  border-width:5px;
+  text-align:right;
+  background-color:rgb(168,213,255);
+}
+
+
+.purple {
+  border-bottom-color:black;
+  border-bottom-style:dashed;
+  border-bottom-width:2px;
+}
+
+#blue {
+  border-color:rgb(168,213,255);
+  border-style:solid;
+  border-width:5px;
+  background-color:rgb(196,226,255);
+  padding:5px;
+  margin-top:10px;
+  overflow:hidden;
+}
+
+#yellow {
+  border-color:none;
+  border-style:none;
+  border-width:none;
+  text-align:center;
+}
